@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 from flask import Flask
 
 # Telegram Bot Setup
-TOKEN = 'YOUR_BOT_TOKEN'
-CHANNEL_ID = '@YourChannelOrGroupID'  # Replace with your actual channel/group
+TOKEN = '7843096547:AAHzkh6gwbeYzUrwQmNlskzft6ZayCRKgNU'
+CHANNEL_ID = '-1002440398569'  # Replace with your actual channel/group
 
 bot = telebot.TeleBot(TOKEN)
 
@@ -15,7 +15,7 @@ movie_list = []
 real_dict = {}
 
 async def tamilmv():
-    main_url = 'https://www.1tamilmv.ac/'
+    main_url = 'https://www.1tamilmv.pm/'
     headers = {
         'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36',
     }
